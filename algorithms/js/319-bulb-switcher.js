@@ -34,5 +34,6 @@ var bulbSwitch = function(n) {
 }
 
 var bulbSwitch2 = function(n) {
-    Math.floor(Math.sqrt(n));
+    return Math.floor(Math.sqrt(n));
 }
+
