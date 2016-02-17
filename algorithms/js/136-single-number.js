@@ -15,7 +15,7 @@ var singleNumber = function(nums) {
 
     for (var key in count) {
         if (count[key] === 1) {
-            return key;
+            return Number(key);
         }
     }
 };
