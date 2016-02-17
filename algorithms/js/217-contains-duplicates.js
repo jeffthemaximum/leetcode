@@ -7,6 +7,7 @@
  * @return {boolean}
  */
 var containsDuplicate = function(nums) {
+    debugger;
     var count = [];
     var len = nums.length;
     for (var i = 0; i <= len; i++) {
@@ -18,3 +19,6 @@ var containsDuplicate = function(nums) {
     }
     return false;
 };
+
+var x = [1, 2, 3, 4, 4, 5, 6];
+console.log(containsDuplicate(x));
